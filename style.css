@@ -79,6 +79,29 @@ ul{
 	background-color: #ffffff;
 }
 
+.about{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 50px; 
+	flex-wrap: wrap;
+	padding: 20px;
+	max-width: 1300px;
+	margin: auto;
+}
+
+.about .right{
+	text-align: justify;
+}
+
+.about .right p {
+	font-size: 20px;
+}
+.about .right h1 {
+	font-size: 40px;
+	padding-bottom: 10px
+}
+
 /*responsive*/
 @media(max-width: 767px){
   .footer-col{
